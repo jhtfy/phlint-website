@@ -1,0 +1,270 @@
+body {
+    font-family: "Promixa-Nova",sans-serif;
+    font-weight: 100;
+}
+
+.heroimage-lg{
+	position:absolute;
+	left:0;
+	max-width: 1440px;
+	display: block;
+}
+@media(max-width:1000px) {
+.heroimage-lg{
+	top:150px;
+}
+}
+.heroimage-xs{
+	position:absolute;
+	left:0;
+	display: none;
+}
+@media(max-width:400px) {
+	.heroimage-lg{
+		display: none;
+	}
+	.heroimage-xs{
+		display: block;
+	}
+	
+}
+}
+.solid-color {
+    /*background: #ffffff none repeat scroll 0% 0%;*/
+    background: url(../images/heroimage.jpg) center right no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+.hero {
+    /*background: #ffffff none repeat scroll 0% 0%;*/
+    background: url(../images/heroimage.jpg) center left no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+@media(max-width:992px) {
+    .hero {
+    /*background: #ffffff none repeat scroll 0% 0%;*/
+    background: url(../images/heroimage-ipad@2x.jpg) center left no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+}
+@media(max-width:500px) {
+    .hero {
+    /*background: #ffffff none repeat scroll 0% 0%;*/
+    background: url(../images/heroimage-iphone@2x.jpg) center left no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+}
+.navbar-inverse {
+    background-color: #008ED6;
+    color:white;
+    opacity: 0.9;
+}
+
+.navbar-fixed-top {
+    top: 0px;
+    border-width: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+}
+
+.logo{
+	max-width:200px;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+header .intro-section{
+    color:#008ED6;
+    text-align: right;
+}
+header .intro-section .intro {
+    color:#008ED6;
+    margin-bottom: 10px;
+    margin-top: 130px;
+}
+
+@media(min-width:1024px) {
+	header .intro-section .intro {
+	    font-size: 70px;
+	}
+
+	header .intro-section h4 {
+    font-size: 25px;
+    font-family: "Promixa-Nova",sans-serif;
+    font-weight: 100;
+}
+}
+@media(max-width:1023px) {
+header .intro-section h4 {
+    font-weight: 100;
+}
+}
+
+h1, h2 {
+    font-family: "Promixa-Nova",sans-serif;
+    font-weight: 100;
+}
+h1{
+	letter-spacing: 1px;
+}
+.standard-button {
+    min-width: 100px;
+    padding:10px 15px;
+}
+
+.img-responsive{
+    /*display: block;*/
+    max-width: 100%;
+    height: auto;
+}
+
+header .intro-section .buttons {
+    margin-top: 20px;
+}
+
+/*header .solid-color {
+    min-height: 60vmax;
+}*/
+
+@media(min-width:768px) {
+
+}
+
+
+@media(min-width:992px) {
+.endcap-image-mobile{
+		display: none;
+}
+.endcap{
+	background: url(../images/endcap@2x.png) center right no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+.analytics-image-mobile{
+	display: none;
+}
+.analytics-image{
+	display: block;
+
+}
+.analytics{
+	margin-left:-400px
+}
+}
+@media(max-width:991px) {
+.analytics-image{
+	display: none;
+
+}
+}
+
+
+.service-icon-height{
+	max-height: 80px;
+}
+
+@media(max-width:600px) {
+header .intro-section {
+    /*padding-top: 9%;*/
+    text-align: right;
+}
+.endcap-image-mobile .img-responsive{
+		padding-top:15%;
+}
+}
+@media(max-width:400px) {
+header .intro-section {
+    padding-top:0;
+    margin-top:-50px;
+    text-align: center;
+    font-size: 20px;
+}
+}
+
+footer .social-icons {
+    margin-top: 30px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.footer-line{
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 50px;
+
+}
+
+.company-section{
+    background: #000 url(../images/company.jpg) center center fixed no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+@media(max-width:768px) {
+.company-section{
+    background: #000 url(../images/company.jpg) center center scroll no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+}
+
+.user-section{
+    background: #000 url(../images/measure_curiosity_2.jpg) center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+p {
+    color: #5E5E5E;/*#6F7C82*/
+font-size: 17px;
+line-height: 28px;
+text-align: left;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover{
+    border:none;
+    background: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+.copyright{
+    text-align: center;
+}
+
+
+/*--------------cooooool indicator---------------*/
+@media(min-width:769px) {
+.navbar-nav > li{
+    transition:0.3s;
+}
+.navbar-nav > li:hover, .navbar-nav > li:active{
+    color: #9b9b9b;
+    box-shadow:inset 0px 3px 0px 0px white;
+}
+}
+/*--------------cooooool indicator End---------------*/
+
+
